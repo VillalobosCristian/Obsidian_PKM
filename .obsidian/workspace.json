@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Workflow"
             }
+          },
+          {
+            "id": "4e7500c3fcb238ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Workflow"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,6 +178,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2bf3a4a815847ef1",
-  "lastOpenFiles": []
+  "active": "4e7500c3fcb238ca",
+  "lastOpenFiles": [
+    "Workflow for Managing the Physics Notes Vault.md",
+    "Workflow.md"
+  ]
 }
