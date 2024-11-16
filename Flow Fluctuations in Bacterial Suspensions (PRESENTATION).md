@@ -1,6 +1,10 @@
 
 
 ```tikz
+\usepackage{tikz}
+\usepackage{siunitx}
+\usetikzlibrary{arrows.meta,backgrounds,positioning,shapes}
+
 \begin{document}
 \begin{tikzpicture}[scale=1.2]
     % Style definitions
@@ -90,3 +94,4 @@
 
 \end{tikzpicture}
 ```
+
