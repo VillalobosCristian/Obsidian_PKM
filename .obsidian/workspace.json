@@ -25,10 +25,14 @@
             "id": "028ae7d396ee0066",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Workflow for Managing the Physics Notes Vault.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Workflow for Managing the Physics Notes Vault"
             }
           }
         ],
@@ -174,12 +178,12 @@
   "active": "028ae7d396ee0066",
   "lastOpenFiles": [
     "README.md",
+    "Fluid Dynamics MOC.md",
     "Workflow for Managing the Physics Notes Vault.md",
     "Untitled.md",
     "Clippings/ChatGPT.md",
     "3. Physics Concepts/3.4 Active Matter/Active Matter.md",
     "Clippings",
-    "Fluid Dynamics MOC.md",
     "3. Physics Concepts/3.1 Statistical Mechanics/Non-Equilibrium Statistical Mechanics.md",
     "Flow Fields.md",
     "3. Physics Concepts/3.2 Fluid Dynamics/Viscous Drag.md",
