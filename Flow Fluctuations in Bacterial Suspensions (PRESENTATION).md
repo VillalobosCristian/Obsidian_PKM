@@ -1,87 +1,133 @@
 
 
 
-```tikz
-\usetikzlibrary{arrows.meta,backgrounds,positioning,shapes}
-\usepackage{tikz}
 
+
+
+
+
+```tikz
 \begin{document}
 \begin{tikzpicture}[scale=1]
-    % Style definitions
-    \tikzset{
-        box/.style={
-            draw=none,
-            fill=#1!10,
-            rounded corners=3pt,
-            minimum height=2cm,
-            minimum width=2.8cm,
-            text width=2.6cm,
-            align=center,
-            inner sep=8pt
-        },
-        conn/.style={
-            -Stealth,
-            thick,
-            opacity=0.7
-        }
-    }
-    
 
-    % Main scale line
-    \draw[thick] (0,0) -- (15,0);
-    
-    % Scale marks
-    \foreach \x in {0,3,6,9,12,15} {
-        \draw[thick] (\x,0.1) -- (\x,-0.1);
-    }
-    
-    % Scale labels
-    \foreach \x/\xtext/\unit in {
-        0/1/\si{\nano\meter},
-        3/1/\si{\micro\meter},
-        6/100/\si{\micro\meter},
-        9/1/\si{\milli\meter},
-        12/1/\si{\centi\meter},
-        15/1/\si{\meter}
-    } {
-        \node[below=3pt, font=\small] at (\x,-0.1) {\xtext~\unit};
-    }
-    
-    % Example systems with boxes
-    \node[box=blue] (motors) at (1.5,1) {
-        \textbf{Molecular\\Motors}\\[3pt]
-        \small ATP-driven\\proteins
-    };
-    
-    \node[box=green] (bacteria) at (4.5,1) {
-        \textbf{Bacteria}\\[3pt]
-        \small E. coli\\B. subtilis
-    };
-    
-    \node[box=green] (cells) at (7.5,1) {
-        \textbf{Cellular\\Tissues}\\[3pt]
-        \small Epithelial\\sheets
-    };
-    
-    \node[box=orange] (insects) at (10.5,1) {
-        \textbf{Swarming\\Insects}\\[3pt]
-        \small Locusts\\ants
-    };
-    
-    \node[box=orange] (birds) at (13.5,1) {
-        \textbf{Bird\\Flocks}\\[3pt]
-        \small Starlings\\pigeons
-    };
-    
-    % Connectors
-    \foreach \node in {motors,bacteria,cells,insects,birds} {
-        \draw[conn] (\node) -- (\node |- {0,0});
-    }
-    
-    % Log scale indicator
-    \draw[|-|] (0,-1.2) -- (15,-1.2);
-    \node[below, font=\small] at (7.5,-1.2) {Logarithmic scale};
+    % Colors and styles
 
+    \definecolor{perpcolor}{RGB}{0,153,76}       % Green for perpendicular
+
+    \definecolor{parallelcolor}{RGB}{204,0,0}    % Red for parallel
+
+    \definecolor{parallelcolor2}{RGB}{1,1,1}    % Red for parallel
+
+  
+
+    \tikzset{
+
+        arrowstyle/.style={-stealth, thick},
+
+        point/.style={circle, draw=blue, thick, inner sep=1.5pt, fill=white},
+
+        connection/.style={dashed, gray, thin}
+
+    }
+
+  
+
+    % Title for perpendicular correlation with proper math spacing
+
+    \node[parallelcolor2, align=left] at (0,5) 
+
+        {\Large $C_\perp(r)$: correlation perpendicular to separation $\bigl\langle u_i^\perp u_j^\perp \bigr\rangle$};
+
+  
+
+    % Negative correlation case
+
+    \begin{scope}[xshift=-4cm, yshift=2.5cm]
+
+        \node[point] (i1) at (0,0) {};
+
+        \node[point] (j1) at (3,0) {};
+
+        \draw[connection] (i1) -- (j1);
+
+        \draw[arrowstyle, perpcolor, thick] (i1) -- ++(0,1.2) node[above] {$u_i^\perp$};
+
+        \draw[arrowstyle, perpcolor, thick] (j1) -- ++(0,-1.2) node[below] {$u_j^\perp$};
+
+        \node[align=center] at (1.5,-1) {$C_\perp < 0$ \\ anti-aligned};
+
+    \end{scope}
+
+  
+
+    % Positive correlation case
+
+    \begin{scope}[xshift=4cm, yshift=2.5cm]
+
+        \node[point] (i2) at (0,0) {};
+
+        \node[point] (j2) at (3,0) {};
+
+        \draw[connection] (i2) -- (j2);
+
+        \draw[arrowstyle, perpcolor, thick] (i2) -- ++(0,1.2) node[above] {$u_i^\perp$};
+
+        \draw[arrowstyle, perpcolor, thick] (j2) -- ++(0,1.2) node[above] {$u_j^\perp$};
+
+        \node[align=center] at (1.5,-1) {$C_\perp > 0$ \\ aligned};
+
+    \end{scope}
+
+  
+
+    % Title for parallel correlation with proper math spacing
+
+    \node[parallelcolor2, align=left] at (0,0) 
+
+        {\Large $C_\|(r)$: correlation along separation $\bigl\langle u_i^\| u_j^\| \bigr\rangle$};
+
+  
+
+    % Strong correlation case
+
+    \begin{scope}[xshift=-4cm, yshift=-2.5cm]
+
+        \node[point] (i3) at (0,0) {};
+
+        \node[point] (j3) at (3,0) {};
+
+        \draw[connection] (i3) -- (j3);
+
+        \draw[arrowstyle, parallelcolor, thick] (i3) -- ++(1.5,0) node[above] {$u_i^\|$};
+
+        \draw[arrowstyle, parallelcolor, thick] (j3) -- ++(1.5,0) node[above] {$u_j^\|$};
+
+        \node[align=center] at (1.5,-1) {$C_\| \approx 1$ \\ strong correlation};
+
+    \end{scope}
+
+  
+
+    % Weak correlation case
+
+    \begin{scope}[xshift=4cm, yshift=-2.5cm]
+
+        \node[point] (i4) at (0,0) {};
+
+        \node[point] (j4) at (3,0) {};
+
+        \draw[connection] (i4) -- (j4);
+
+        \draw[arrowstyle, parallelcolor, thick, opacity=0.7] (i4) -- ++(1.2,0) node[above] {$u_i^\|$};
+
+        \draw[arrowstyle, parallelcolor, thick, opacity=0.7] (j4) -- ++(0.3,0) node[above] {$u_j^\|$};
+
+        \node[align=center] at (1.5,-1) {$C_\| \approx 0$ \\ weak correlation};
+
+    \end{scope}
+
+  
 
 \end{tikzpicture}
+\end{document}
 ```
