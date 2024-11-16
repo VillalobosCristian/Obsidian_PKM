@@ -2,7 +2,7 @@
 
 **Active baths** are environments composed of active particles that consume energy to generate motion, thereby creating dynamic and fluctuating flow fields. Unlike thermal baths, active baths are inherently out of equilibrium due to the continuous energy input at the individual particle level.
 
-## Key Characteristics
+
 
 - **Energy Consumption:** Active particles continuously consume energy to propel themselves.
 - **Flow Fields:** The motion of active particles generates complex flow patterns in the surrounding medium.
