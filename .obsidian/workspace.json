@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workflow for Managing the Physics Notes Vault.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Workflow for Managing the Physics Notes Vault"
+              "title": "README"
             }
           }
         ],
@@ -177,9 +177,9 @@
   },
   "active": "028ae7d396ee0066",
   "lastOpenFiles": [
+    "Workflow for Managing the Physics Notes Vault.md",
     "README.md",
     "Fluid Dynamics MOC.md",
-    "Workflow for Managing the Physics Notes Vault.md",
     "Untitled.md",
     "Clippings/ChatGPT.md",
     "3. Physics Concepts/3.4 Active Matter/Active Matter.md",
