@@ -11,9 +11,3 @@ This chapter provides an overview of the foundational concepts and context for t
 - [[Confinement Effects in Active Matter]]
 - [[Thesis Overview]]
 
-## Figures
-
-- ![[length_scales]]
-- ![[BacterialSuspensions]]
-- ![[Diffusion_probe_particles]]
-- ![[ConfinementEffects]]
