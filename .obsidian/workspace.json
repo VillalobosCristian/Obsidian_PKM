@@ -173,8 +173,8 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "obsidian42-brat:BRAT": false,
-      "copilot:Copilot Chat": false
+      "copilot:Copilot Chat": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "7e3bee87b8229d1b",
