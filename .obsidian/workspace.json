@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vicsek Model.md",
+                "file": "Templates/Papers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vicsek Model"
+              "title": "Papers"
             }
           }
         ],
@@ -179,6 +179,9 @@
   },
   "active": "7e3bee87b8229d1b",
   "lastOpenFiles": [
+    "Vicsek Model.md",
+    "Templates/Papers.md",
+    "main",
     "Templates",
     "Flow Fluctuations in Bacterial Suspensions (PRESENTATION).md",
     "Flow Fields.md",
@@ -188,7 +191,6 @@
     "README.md",
     "Active Baths.md",
     "Workflow for Managing the Physics Notes Vault.md",
-    "Vicsek Model.md",
     "Untitled.md",
     "Clippings/ChatGPT.md",
     "Clippings",
