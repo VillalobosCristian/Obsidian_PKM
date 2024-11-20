@@ -1,4 +1,4 @@
-	# {{tp_title}}
+# {{tp_title}}
 
 - **Authors**: 
 - **Year**: 
