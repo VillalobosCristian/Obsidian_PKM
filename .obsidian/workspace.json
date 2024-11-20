@@ -39,14 +39,10 @@
             "id": "177f7b8987c76bd1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge Areas MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Knowledge Areas MOC"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -191,10 +187,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "7e3bee87b8229d1b",
+  "active": "177f7b8987c76bd1",
   "lastOpenFiles": [
-    "Workflow for Managing the Physics Notes Vault.md",
     "Knowledge Areas MOC.md",
+    "Workflow for Managing the Physics Notes Vault.md",
     "Untitled 1.md",
     "Templates/Research_Paper_Template.md",
     "Templates/Project_Note_Template.md",
