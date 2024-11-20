@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flow Fluctuations in Bacterial Suspensions (PRESENTATION).md",
+                "file": "Vicsek Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flow Fluctuations in Bacterial Suspensions (PRESENTATION)"
+              "title": "Vicsek Model"
             }
           }
         ],
@@ -170,13 +170,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "copilot:Copilot Chat": false
     }
   },
   "active": "028ae7d396ee0066",
   "lastOpenFiles": [
-    "Flow Fields.md",
     "Flow Fluctuations in Bacterial Suspensions (PRESENTATION).md",
+    "Flow Fields.md",
     "Fluid Dynamics MOC.md",
     "3. Physics Concepts/3.4 Active Matter/Active Matter.md",
     "2. Thesis/2.5 Drafts/Introduction.md",
