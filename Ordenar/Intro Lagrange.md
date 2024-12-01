@@ -1,4 +1,4 @@
-**Intro.Lagrange**
+
 
   
 
@@ -16,7 +16,7 @@
 
   
 
-• $\colorbox{lavender}{\text{Leyes de Newton y sistema de partículas.}}$
+• ${\text{Leyes de Newton y sistema de partículas.}}$
 
 • **Definición fuerza central.**
 
@@ -166,7 +166,7 @@ t’ = t + c
 
 $$
 
-• $\colorbox{lightblue}{\text{Fuerzas centrales}}$
+• ${\text{Fuerzas centrales}}$
 
 Una fuerza central es una fuerza tal que esta solo dependa del vector posición $\mathbf{r}$. El problema de dos cuerpos se puede simplificar utilizando como coordenadas el centro de masa de dos objetos y la masa reducida como masa. Esto reduce el problema, donde al ser un movimiento en un plano conviene utilizar coordenadas polares para describir el problema. El momento angular es una cantidad conservada de movimiento y se define el potencial efectivo, como un potencial que depende de $r$ y una contribución centrífuga debido al movimiento rotacional.
 
