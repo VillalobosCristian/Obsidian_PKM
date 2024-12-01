@@ -1,15 +1,5 @@
 # Intro.Lagrange
 
-Date Learned: February 7, 2021
-1st Rep: Yes
-2nd Rep: No
-3rd Rep: No
-Level Of Comfort (1-5): 4
-Next Rep: February 14, 2021
-Notes: Falta Variaciones, Noether, problemas de minimización!
-Subject: Mecánica Clásica
-Alarma: February 8, 2021 11:00 AM (GMT-3)
-
 1. Cuántos grados de libertad?
 2. Cuántas coordenadas generalizadas?
 3. Cuáles son las mejores coordenadas generalizadas? 
