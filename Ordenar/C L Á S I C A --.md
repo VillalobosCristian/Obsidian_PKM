@@ -1,17 +1,20 @@
 # C L Á S I C A
 
 - $\substack{ \Huge \textsf{\textbf{\color{thistle}Lagrange}}\\[-1.23em] \frac{\ \ \ \ \ \ \ \ }{}\ L\ a\ g\ r\ a\ n\ g\ e\frac{\ \ \ \ \ \ \ \ }{} }$
-    - $\colorbox{Lavender}{Esfera en tubo rotando}$
+
+
+# $\colorbox{Lavender}{Esfera en tubo rotando}$
         
-        March 13, 2021 11:05 PM 
+
         
         El problema consiste en una partícula de masa $m$ dentro de un tubo rígido el cual rota con $\phi = \omega t$ en el plano $x-y$. 
         
         El sistema tiene un grado de libertad ya que necesitamos solo una coordenada para describirlo, $r$ la distancia de la esfera al centro de giro.  Para este  problema $V=0$ y las ecuaciones de movimiento de un oscilador armónico no amortiguado. Sin embargo la solución para $t\to \infty$ hará que el radio también se vaya a infinito, esto debido a que la fuerza  centrifuga empujará a la esfera cada vez más fuera del radio de giro aumentando su energía.
         
-    - $\colorbox{orangered}{Péndulo vertical}$
+		 
+# $\colorbox{orangered}{Péndulo vertical}$
         
-        March 22, 2021 9:23 PM 
+
         
         Este problema consiste en una barra rigida que oscila en tal que $h(t)=h_0 \cos \omega t$. En el extremo de la barra hay una masa $m$ que hace un ángulo $\theta$ con la vertical. 
         
@@ -19,7 +22,7 @@
         
     - $\colorbox{orchid}{Frecuencias de vibración de una molécula de tres átomos simétrica}$
         
-        March 17, 2021 8:27 AM 
+
         
         Se debe encontrar las frecuencias de vibración de una molécula $ABA$. El potencial solo dependerá de la distancia entre vecinos. 
         
@@ -58,7 +61,7 @@
         Nota: Una vez encontradas las ecuaciones de movimiento se  prueba el Ansatz $\phi_i=A_i \cos{\omega t}$ donde luego los coeficientes  van en la ecuación característica.
         
     
-- $\colorbox{thistle}{Ecuaciones de Hamilton}$
+# - $\colorbox{thistle}{Ecuaciones de Hamilton}$
     
     Conociendo el Hamiltoniano de un sistema podemos conocer las ecuaciones de Hamilton, las cuales nos entregan un conjunto de ecuaciones diferenciales que describen la evolución de un sistema.
     
