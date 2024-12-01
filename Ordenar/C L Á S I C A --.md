@@ -16,14 +16,12 @@
         
 
         
-        Este problema consiste en una barra rigida que oscila en tal que $h(t)=h_0 \cos \omega t$. En el extremo de la barra hay una masa $m$ que hace un ángulo $\theta$ con la vertical. 
+Este problema consiste en una barra rigida que oscila en tal que $h(t)=h_0 \cos \omega t$. En el extremo de la barra hay una masa $m$ que hace un ángulo $\theta$ con la vertical. 
         
         Para determinar las ecuaciones de movimiento, podemos describir el sistema con el ángulo $\theta$ el cual es el único grado de libertad del sistema. Luego de encontrar las ecuaciones de Euler-Lagrange y hacer aproximación para ángulos pequeños nos queda una ecuación de segundo orden con forzamiento. Si el pistón está en reposo recuperamos la ecuación del péndulo.
         
-    - $\colorbox{orchid}{Frecuencias de vibración de una molécula de tres átomos simétrica}$
-        
+# $\colorbox{orchid}{Frecuencias de vibración de una molécula de tres átomos simétrica}$
 
-        
         Se debe encontrar las frecuencias de vibración de una molécula $ABA$. El potencial solo dependerá de la distancia entre vecinos. 
         
         Para este problema podemos escribir el lagrangiano en coordenadas normales y así encontrar las ecuaciones de vibración de cada  átomo de forma desacoplada. 
@@ -34,17 +32,17 @@
         
         $L=\frac{m_{A}}{2}(\dot{x}^2_1+\dot{x}^2_3)+\frac{m_B}{2}\dot{x_2}^2-\frac{K}{2}[(x_1-x_2)^2+(x_3-x_2)^2]$. Luego podemos eliminar $x_2$ del lagrangiano ya que el movimiento del centro de masa del sistema satiface la ecuación $m_A(x_1+x_3)m_Bx_2=0$. Luego definimos las coordenadas normales para desacoplar las ecuaciones de movimiento.
         
-    - $\colorbox{lavender}{Pequeñas oscilaciones}$
+#  $\colorbox{lavender}{Pequeñas oscilaciones}$
         
-        March 18, 2021 1:58 PM 
+
         
         Un sistema de s grados de libertad se puede generalmente para pequeñas oscilaciones como $L=\frac{1}{2}\sum\limits_{i,j}(m_{ik}\dot{x_i}\dot{x_k}-k_{ik} x_{i}x_{k})$. La ecuación de autofrecuencias del sistema es determinada por. 
         
         $\det|k_{i,k}-\omega^2 m_{i,k}|=0$.
         
-    - $\colorbox{teal}{Masas puntuales acopladas en un círculo}$
+# $\colorbox{teal}{Masas puntuales acopladas en un círculo}$
         
-        March 17, 2021 11:30 PM 
+
         
         El problema consiste en tres masas de masa $m$, conectadas por resortes de constante $k$ en un anillo. No hay potencial gravitatorio actuando.
         
