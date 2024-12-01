@@ -1,6 +1,6 @@
 # C L Á S I C A
 
-- $\substack{ \Huge \textsf{\textbf{\color{thistle}Lagrange}}\\[-1.23em] \frac{\ \ \ \ \ \ \ \ }{}\ L\ a\ g\ r\ a\ n\ g\ e\frac{\ \ \ \ \ \ \ \ }{} }$
+
 
 
 # $\colorbox{Lavender}{Esfera en tubo rotando}$
