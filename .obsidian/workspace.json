@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ordenar/C L Á S I C A --.md",
+                "file": "Ordenar/CLÁSICA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C L Á S I C A --"
+              "title": "CLÁSICA"
             }
           }
         ],
@@ -179,8 +179,9 @@
   },
   "active": "028ae7d396ee0066",
   "lastOpenFiles": [
-    "Ordenar/CLÁSICA.md",
     "Ordenar/Intro Lagrange.md",
+    "Ordenar/C L Á S I C A --.md",
+    "Ordenar/CLÁSICA.md",
     "Ordenar/Copy of Formulario 2b4d60d464804e35abc8292f13835221.md",
     "Flow Fluctuations in Bacterial Suspensions (PRESENTATION).md",
     "Ordenar/📒 New Note for SP 7cccf33f3677456b8f6f0c21b8c5c829.md",
@@ -206,7 +207,6 @@
     "3. Physics Concepts/3.1 Statistical Mechanics/Non-Equilibrium Statistical Mechanics.md",
     "3. Physics Concepts/3.2 Fluid Dynamics/Viscous Drag.md",
     "3. Physics Concepts/3.2 Fluid Dynamics/Navier-Stokes Equations.md",
-    "3. Physics Concepts/3.2 Fluid Dynamics/Stokes Equation.md",
-    "Workflow.md"
+    "3. Physics Concepts/3.2 Fluid Dynamics/Stokes Equation.md"
   ]
 }
