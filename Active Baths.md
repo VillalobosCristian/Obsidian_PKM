@@ -20,12 +20,12 @@
 
 ## Related Concepts
 
-- [[Brownian Motion]]
-- [[Non-Equilibrium Systems]]
-- [[Flow Fields]]
+- [Brownian Motion](Brownian%20Motion.md)
+- [Non-Equilibrium Systems](Non-Equilibrium%20Systems.md)
+- [Flow Fields](./Flow%20Fields.md)
 
 ## References
 
-- [Wu et al., 2000](#wuParticleDiffusionQuasiTwoDimensional2000)
-- [Bechinger et al., 2016](#bechingerActiveParticlesComplex2016)
-- [Ramaswamy, 2010](#ramaswamy2010MechanicsStatisticsActivea)
+- [Wu et al., 2000](Active%2520Baths.md##wuParticleDiffusionQuasiTwoDimensional2000)
+- [Bechinger et al., 2016](Active%2520Baths.md##bechingerActiveParticlesComplex2016)
+- [Ramaswamy, 2010](Active%2520Baths.md##ramaswamy2010MechanicsStatisticsActivea)

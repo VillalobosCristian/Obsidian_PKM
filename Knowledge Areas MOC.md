@@ -1,10 +1,10 @@
 # Knowledge Areas MOC
 
 ## Physics
-- [[Fluid Dynamics]]
-- [[Stochastic Processes]]
-- [[Active Matter]]
+- [Fluid Dynamics](Fluid%20Dynamics.md)
+- [Stochastic Processes](Stochastic%20Processes.md)
+- [Active Matter](./Active%20Matter.md)
 
 ## Tools
-- [[MATLAB Tips]]
-- [[PIV Analysis Guide]]
+- [MATLAB Tips](MATLAB%20Tips.md)
+- [PIV Analysis Guide](PIV%20Analysis%20Guide.md)

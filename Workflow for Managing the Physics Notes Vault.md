@@ -1,5 +1,5 @@
 ---
-tags: #workflow #organization
+tags: 
 aliases: 
 date: 2024-11-15
 ---
@@ -9,7 +9,7 @@ date: 2024-11-15
 - [ ] The vault is structured into top-level folders to ensure clarity and focus:
 - [ ] **Research**: Contains active projects, experimental results, and data analysis.
 - [ ] **Concepts**: Fundamental topics like Fluid Mechanics, Statistical Mechanics, and Bacterial Suspensions.
-- [ ] **Equations and Models**: Key equations (e.g., [[Langevin Equation]], [[Stokes Equation]]) with derivations and explanations.
+- [ ] **Equations and Models**: Key equations (e.g., [Langevin Equation](Langevin%20Equation.md), [Stokes Equation](./Stokes%20Equation.md)) with derivations and explanations.
 - [ ] **References**: External resources, including papers and book notes.
 - [ ] **Visuals**: A repository for diagrams, plots, and other visuals.
 - [ ] **Daily Notes**: Logs of tasks, insights, and ideas for each day.
@@ -40,5 +40,5 @@ date: 2024-11-15
 - [ ] Describe real-world or theoretical uses of the concept.
 
 - [ ] ## **References and Cross-Links**
-- [ ] [[Stokes Equation]]
-- [ ] [[Non-Equilibrium Statistical Mechanics]]
+- [ ] [Stokes Equation](./Stokes%20Equation.md)
+- [ ] [Non-Equilibrium Statistical Mechanics](./Non-Equilibrium%20Statistical%20Mechanics.md)

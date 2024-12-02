@@ -1,6 +1,6 @@
 
 
-The **Vicsek model** is a foundational framework in active matter research, introduced by [Vicsek et al., 1995](#vicsek1995novel). It models self-propelled particles to study collective behaviors such as flocking.
+The **Vicsek model** is a foundational framework in active matter research, introduced by [Vicsek et al., 1995](Vicsek%2520Model.md##vicsek1995novel). It models self-propelled particles to study collective behaviors such as flocking.
 
 ## Core Principles
 
@@ -14,4 +14,4 @@ The **Vicsek model** is a foundational framework in active matter research, intr
 
 ## References
 
-- [Vicsek et al., 1995](#vicsek1995novel)
+- [Vicsek et al., 1995](Vicsek%2520Model.md##vicsek1995novel)
