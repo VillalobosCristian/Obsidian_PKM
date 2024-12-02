@@ -1,3 +1,7 @@
+---
+share: true
+---
+
 # Obsidian PKM
 # Active Matter Physics Vault Structure
 
