@@ -16,5 +16,5 @@
 - {{What needs improvement?}}
 
 ## References
-- [[Related Note 1]]
-- [[Research Paper Name]]
+- [Related Note 1](Related%20Note%201.md)
+- [Research Paper Name](Research%20Paper%20Name.md)

@@ -18,8 +18,8 @@
 - {{Potential application 2}}
 
 ## Related Topics
-- [[Related Note 1]]
-- [[Related Note 2]]
+- [Related Note 1](Related%20Note%201.md)
+- [Related Note 2](Related%20Note%202.md)
 
 ## Questions or Insights
 - {{What did you learn from this paper?}}
